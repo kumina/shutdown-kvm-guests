@@ -1,0 +1,5 @@
+shutdown-kvm-guest (1.0) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Tim Stoop <tim@kumina.nl>  Fri, 06 May 2011 12:20:33 +0000
