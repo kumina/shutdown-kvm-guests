@@ -3,7 +3,7 @@
 set -e
 
 # Register initscript
-update-rc.d shutdown-kvm-guests.sh stop 06
+update-rc.d shutdown-kvm-guests.sh stop 0 1 6
 
 # Continue with debhelper stuff
 #DEBHELPER#
