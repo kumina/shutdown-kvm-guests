@@ -1,3 +1,9 @@
+shutdown-kvm-guests (1.0.2) unstable; urgency=low
+
+  * Fix the update-rc.d registration.
+
+ -- Tim Stoop <tim@kumina.nl>  Fri, 06 May 2011 16:16:00 +0200
+
 shutdown-kvm-guests (1.0.1) unstable; urgency=low
 
   * Rename package from singular to plural.
