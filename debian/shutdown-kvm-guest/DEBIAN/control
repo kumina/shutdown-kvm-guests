@@ -1,0 +1,13 @@
+Package: shutdown-kvm-guest
+Version: 1.0
+Architecture: all
+Maintainer: Tim Stoop <tim@kumina.nl>
+Installed-Size: 56
+Depends: libvirt-bin
+Recommends: qemu-kvm
+Section: misc
+Priority: extra
+Homepage: http://www.kumina.nl
+Description: Script to assist in cleanly shutting down KVM guests
+ This is a simple initscript that shuts down kvm VMs with a 'virsh
+ shutdown <domain>', which makes them exit cleanly.
