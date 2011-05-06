@@ -1,4 +1,4 @@
-shutdown-kvm-guest (1.0) unstable; urgency=low
+shutdown-kvm-guests (1.0) unstable; urgency=low
 
   * Initial Release.
 

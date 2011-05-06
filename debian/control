@@ -1,14 +1,14 @@
-Source: shutdown-kvm-guest
+Source: shutdown-kvm-guests
 Section: misc
 Priority: extra
 Maintainer: Tim Stoop <tim@kumina.nl>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.9.1
 Homepage: http://www.kumina.nl
-Vcs-Git: https://github.com/kumina/shutdown-kvm-guest.git
-Vcs-Browser: https://github.com/kumina/shutdown-kvm-guest
+Vcs-Git: https://github.com/kumina/shutdown-kvm-guests.git
+Vcs-Browser: https://github.com/kumina/shutdown-kvm-guests
 
-Package: shutdown-kvm-guest
+Package: shutdown-kvm-guests
 Architecture: all
 Depends: ${misc:Depends}, libvirt-bin
 Recommends: qemu-kvm
